@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(112, 93, 238);
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+h1 {
+  color: slategray;
+  text-align: center;
+  font-family: monospace;
+  background-color: darkred;
+  padding: 10px;
+  border-radius: 80px;
+  border: 5px solid black;
+}
+.nav_start {
+  color: red;
+  font-size: 14px;
+  border: 3px solid rgb(180, 16, 85);
+  background-color: rgb(177, 202, 64);
+  text-align: center;
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+.profile_pic {
+  width: 200px;
+  height: auto;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.skills {
+  background-color: rgb(177, 202, 64);
+  border: 3px solid rgb(180, 16, 85);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+.skills ul {
+  list-style-type: none;
+  text-align: left;
+  display: inline-block;
+}
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+summary:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.projects {
+  background-color: rgb(177, 202, 64);
+  border: 3px solid rgb(180, 16, 85);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.direct_contact {
+  background-color: rgb(177, 202, 64);
+  border: 3px solid rgb(180, 16, 85);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+.socials {
+  background-color: rgb(177, 202, 64);
+  border: 3px solid rgb(180, 16, 85);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+.socials ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  background-color: rgb(177, 202, 64);
+  border: 3px solid rgb(180, 16, 85);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+.darkred {
+  color: darkred;
+  font-weight: bold;
+}
+.darkred:hover {
+  color: red;
+  text-decoration: underline;
+}
+.gr {
+  color: blue;
+  font-weight: bolder;
+}
+.gr:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+.de {
+  color: rgb(180, 12, 12);
+  font-weight: bolder;
+}
+.de:hover {
+  color: rgb(151, 151, 1);
+  text-decoration: underline;
+}
+.intro {
+  text-align: justify;
+  margin: 0 20%;
+  border: 3px solid rgb(180, 16, 85);
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgb(177, 202, 64);
+  font-size: 16px;
+}
+.intro2 {
+  font-size: 16px;
+  margin-top: 10px;
+  color: darkred;
+  text-align: center;
+  border: dotted 5px black;
+  background-color: rgb(177, 202, 64);
+  border-radius: 20px;
+  padding: 5px;
+}
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.socials a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.direct_contact a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.direct_contact a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 7px;
+  text-align: right;
+}
