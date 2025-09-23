@@ -12,6 +12,14 @@ body {
   background-size: cover;
   background-attachment: center;
 }
+.about {
+  text-align: center;
+  background-color: rgb(177, 202, 64);
+  border: 3px solid rgb(180, 16, 85);
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px;
+}
 h1 {
   color: slategray;
   text-align: center;
