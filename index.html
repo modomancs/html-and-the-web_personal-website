@@ -10,11 +10,11 @@
     <header>
       <h1>Welcome to my page (WIP)</h1>
       <nav id="nav">
-        <ul class="nav_start">
-          <li class="nav_start"><a href="#about">About me</a></li>
-          <li class="nav_start"><a href="#skills">Skills</a></li>
-          <li class="nav_start"><a href="#projects">Projects</a></li>
-          <li class="nav_start"><a href="#contact">Contact</a></li>
+        <ul class="nav_list">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -54,8 +54,8 @@
         <ul>
           <li>
             <details>
-              <summary>I can speak 4 languages which are:</summary>
-              <ol>
+              <summary class="languages">Languages</summary>
+              <ol class="language_list">
                 <p>
                   <li>Greek</li>
                   <em>Native</em>
@@ -75,14 +75,38 @@
               </ol>
             </details>
           </li>
-          <li>WIP</li>
+          <li>
+            <details>
+              <summary class="programming_languages">
+                Programming languages
+              </summary>
+              <ol class="programming_language_list">
+                <li>HTML</li>
+                <em>learning</em>
+                <li>CSS</li>
+                <em>learning</em>
+                <li>JavaScript</li>
+                <em>learning</em>
+                <li>React.js</li>
+                <em>learning</em>
+                <li>MongoDB</li>
+                <em>learning</em>
+              </ol>
+            </details>
+          </li>
         </ul>
       </section>
       <section id="projects" class="projects">
         <h2>Projects</h2>
-        <p>Here are some of my projects:</p>
+        <p>
+          <details>
+            <summary>Here are some of my projects:</summary>
+            <li>WIP</li>
+          </details>
+        </p>
+
         <ul>
-          <li>WIP<a href=""></a></li>
+          <li>Jewelry Store Website</li>
         </ul>
       </section>
       <section id="contact" class="contact">
@@ -103,6 +127,6 @@
         </p>
       </section>
     </main>
-    <footer>Made by <em>© Efstathios Tsanidis</em></footer>
+    <footer class="footer">Made by <em>© Efstathios Tsanidis</em></footer>
   </body>
 </html>
