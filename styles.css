@@ -79,11 +79,14 @@ nav ul {
   padding: 10px;
 }
 .profile_pic {
-  width: 200px;
+  width: 20%;
   height: auto;
-  text-align: center;
   border: 2px solid black;
   border-radius: 20px;
+  display: flex;
+  position: fixed;
+
+  left: 0px;
 }
 .skills {
   background-color: rgb(177, 202, 64);
